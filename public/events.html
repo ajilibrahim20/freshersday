@@ -1,0 +1,480 @@
+﻿
+<!doctype html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	
+	<link rel='shortcut icon' href='images/favicon.ico' type='image/x-icon'/ >
+	<title>Events</title> 
+	
+	<meta property="og:title" content="">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+	
+	<link rel="stylesheet" type="text/css" href="css/consilium.css">	
+    <link rel="shortcut icon" type="image/png" href="images/favicon.ico.png"/>
+	
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,300,200&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/main.css">	
+    <link rel="shortcut icon" type="image/png" href="img/logo-white.png">
+</head>
+
+<body >
+	<!-- <div class="navbar navbar-fixed-top" data-activeslide="1" style="background-color: black;">
+		<div class="container">
+
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+			
+			
+			<div class="nav-collapse collapse navbar-responsive-collapse">
+				<ul class="nav row" style="background-color: black;">
+					<li data-slide="1" class="col-12 col-sm-2"><a id="menu-link-1" href="#slide-1" title="Next Section"><span class="icon icon-home"></span> <span class="text">HOME</span></a></li>
+					<li data-slide="2" class="col-12 col-sm-2"><a id="menu-link-2" href="#slide-2" title="Next Section"><span class="icon icon-user"></span> <span class="text">ABOUT US</span></a></li>
+					<li data-slide="3" class="col-12 col-sm-2"><a id="menu-link-3" href="#slide-3" title="Next Section"><span class="icon icon-briefcase"></span> <span class="text">EVENTS</span></a></li>
+					
+					<li data-slide="6" class="col-12 col-sm-2"><a id="menu-link-6" href="#slide-6" title="Next Section"><span class="icon icon-envelope"></span> <span class="text">CONTACT US</span></a></li>
+				</ul>
+				<div class="row">
+					<div class="col-sm-2 active-menu"></div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+        <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+        </label>
+        <div class="navigation__background">&nbsp;</div>
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="index.html" target="_self" class="navigation__link" style="background-color: #292744;">Home</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link" style="background-color:white;color:#8a2387;padding-right: -8%;">All Events</a></li>
+            </ul>
+        </nav>
+    </div>
+   
+	<div id="arrows">
+        <div id="arrow-up" class="disabled"></div>
+        <div id="arrow-down"></div>
+    </div>
+    
+    <div class="slide story" id="slide-3" data-slide="3">
+        <section id="port">
+            <div class="container">
+                <div class="title-row row"style="margin:auto">
+				    <div class="font-semibold">EVENTS</div>
+			    </div>
+                <div class="row line-row">
+				    <div class="hr">&nbsp;</div>
+			    </div>
+                <div class="row" style="margin-top:40px;">
+                    <hr id="gl"/>
+                    <div class="col-sm-4 port-item">
+                        <a href="#portModal1" class="port-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/mudhra.jpeg" class="img-responsive" alt="" style="box-shadow: 0px 10px 23px -1px rgba(24,33,174,0.61);
+                            -webkit-box-shadow: 0px 10px 23px -1px rgba(24,33,174,0.61);
+                            -moz-box-shadow: 0px 10px 23px -1px rgba(24,33,174,0.61);">
+                        </a>
+                        <br>
+                    </div>
+                    <div class="col-sm-4 port-item">
+                        <a href="#portModal2" class="port-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/nalathu.jpeg" class="img-responsive" alt="" style="box-shadow: 0px 10px 23px -1px rgba(254,254,254,0.61);
+                            -webkit-box-shadow: 0px 10px 23px -1px rgba(254,254,254,0.61);
+                            -moz-box-shadow: 0px 10px 23px -1px rgba(254,254,254,0.61);">
+                        </a>
+                        <br>
+                    </div>
+                    <div class="col-sm-4 port-item">
+                        <a href="#portModal3" class="port-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/twist.jpeg" class="img-responsive" alt="" style="box-shadow: 0px 10px 23px -1px rgba(24,178,53,0.61);
+                            -webkit-box-shadow: 0px 10px 23px -1px rgba(24,178,53,0.61);
+                            -moz-box-shadow: 0px 10px 23px -1px rgba(24,178,53,0.61);">
+                        </a>
+                        <br>
+                    </div>
+                    <div class="col-sm-4 port-item">
+                        <a href="#portModal4" class="port-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/talents.jpeg" class="img-responsive" alt="" style="box-shadow: 0px 10px 23px -1px rgba(210,41,36,0.61);
+                            -webkit-box-shadow: 0px 10px 23px -1px rgba(210,41,36,0.61);
+                            -moz-box-shadow: 0px 10px 23px -1px rgba(210,41,36,0.61);">
+                        </a>
+                        <br>
+                    </div>
+                    <div class="col-sm-4 port-item">
+                        <a href="#portModal5" class="port-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/steephan.jpeg" class="img-responsive" alt="" style="box-shadow: 0px 10px 23px -1px rgba(24,178,53,0.61);
+                            -webkit-box-shadow: 0px 10px 23px -1px rgba(24,178,53,0.61);
+                            -moz-box-shadow: 0px 10px 23px -1px rgba(24,178,53,0.61);">
+                        </a>
+                        <br>
+                    </div>
+                    <div class="col-sm-4 port-item">
+                        <a href="#portModal6" class="port-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/varkichan.jpeg" class="img-responsive" alt="" style="box-shadow: 0px 10px 23px -1px rgba(24,33,174,0.61);
+                            -webkit-box-shadow: 0px 10px 23px -1px rgba(24,33,174,0.61);
+                            -moz-box-shadow: 0px 10px 23px -1px rgba(24,33,174,0.61);">
+                        </a>
+                        <br>
+                    </div>
+                    <div class="col-sm-4 port-item">
+                        <a href="#portModal7" class="port-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/mr&mrs.jpeg" class="img-responsive" alt="" style="box-shadow: 0px 10px 23px -1px rgba(254,254,254,0.61);
+                            -webkit-box-shadow: 0px 10px 23px -1px rgba(254,254,254,0.61);
+                            -moz-box-shadow: 0px 10px 23px -1px rgba(254,254,254,0.61);">
+                        </a>
+                        <br>
+                    </div>
+                    <hr id="gl"/>
+                </div>
+                <hr id="gl"/>
+            </div>  
+        </section>
+    </div>
+  
+    <div class="port-modal modal fade" id="portModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>മുദ്ര ശ്രദ്ധിക്കണം മുദ്ര</h2>
+                            <hr class="star-primary">
+                            <img src="img/mudhra.jpeg" class="img-responsive img-centered" alt="">
+                            <p>
+                            Change tempos, mix beats!
+                            
+                            It's time to make a good vibe, dancing to the rhythm of disparate songs at a freshers' bash💥
+                            
+                            Get ready for a pulsating ambience, flashing lights and foot tapping music.
+                            
+                            Strap yourself for this extravaganza.</p>
+                            <ul class="list-inline item-details">
+                                   <li style="font-size:25px;"> <strong><a href="https://forms.gle/YQSH7gnqw5wpPYS98" style="text-decoration: none;">REGISTER HERE</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                                
+                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="port-modal modal fade" id="portModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>നല്ലത് പറഞ്ഞാൽ നല്ലത് കിട്ടണേ</h2>
+                            <hr class="star-primary">
+                            <img src="img/nalathu.jpeg" class="img-responsive img-centered" alt="">
+                            <p>While astrophysicists debated over spiral nebulae and expanding universe, the rest of the world had other gripping dilemmas to solve. On the one hand, desis were questioning the legitimacy of vegetable biriyani and on the other, cereals and milk had the world split in two.
+
+                                Triggered already? Then store it for the showdown, debaters!
+                                
+                                It takes skill to articulate your thoughts and speak eloquently about grave matters such as these. But when it comes to debates, we couldn't agree more with one particular phrase that we all know too well…
+                                 <br/><b>" നല്ലത് പറഞ്ഞാൽ നല്ലത് കിട്ടണേ "</b></p>
+                            <ul class="list-inline item-details">
+                                <li style="font-size:25px;">
+                                    <strong><a style="text-decoration: none;">Live Event</a></strong>
+                                </li> 
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="port-modal modal fade" id="portModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>ഒരു ട്വിസ്റ്റ് വേണം ട്വിസ്റ്റ്</h2>
+                            <hr class="star-primary">
+                            <img src="img/twist.jpeg" class="img-responsive img-centered" alt="">
+                            <p>What makes the readers glued to a story? Is it the narration? Or is it the gripping plot line?<br/>
+                                Whatever maybe the case, it takes a different level of skill to step into a narrative midway, and weave the rest of the story, only to tie all the loose ends and complete the picture at the end. If that got your writer's senses tingling, then you own this game, my friend!
+                                Best part? Even if the beginning is dull and the novelist in you goes, <br><br><b>" ഒരു ട്വിസ്റ്റ് വേണം ട്വിസ്റ്റ് "</b><br/><br>, you could still add that desired edge with finesse!</p>
+                            <ul class="list-inline item-details">
+                                <li style="font-size:25px;">
+                                    <strong><a style="text-decoration: none;">Live Event</a>
+                                    </strong>
+                                </li>
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="port-modal modal fade" id="portModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>CHASSEUR DE TALENTS</h2>
+                            <hr class="star-primary">
+                            <img src="img/talents.jpeg" class="img-responsive img-centered" alt="">
+                            <p>
+                                Opportunities are everywhere. You only have to have an eye out for them.<br/>Diverse talents are surely what keeps the world from being monochrome and paint it vibrant. But have you been looking for a chance to showcase your strongest suit? If so, then you've summoned<br><br><b>CHASSEUR DE TALENTS</b><br/><br/> , the hunter of talents ,to your doorstep! Step right this way and show us what you got. The limelight is on you. Let's see what makes the crowd go encore!.<br/><br/>Savio Sabu - 7306152548<br/>Joyal Nelson - 9747016937
+                            </p>
+                            <ul class="list-inline item-details">
+                                <li style="font-size:25px;">
+                                    <strong><a href="https://forms.gle/dnJ9HQS9bWRmE9HP8" style="text-decoration: none;">REGISTER HERE</a>
+                                    </strong>
+                                </li>
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="port-modal modal fade" id="portModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>സ്റ്റീഫൻ നമ്മൾ ഉദ്ദേശിച്ച ആൾ അല്ല</h2>
+                            <hr class="star-primary">
+                            <img src="img/steephan.jpeg" class="img-responsive img-centered" alt="">
+                            <p>We are all prone to have sky-high expectations while joining a new college, but reality might've had other things in store for us. Now the real question is: how did it turn out for you?
+                                If it weren't for the pandemic, eavesdropping on your leisurely conversations would've been our guilty pleasure, for we are genuinely curious to know how things turned out for you. Was it better than you expected, or did it have you saying,<br/><br><b> "സ്റ്റീഫൻ നമ്മൾ ഉദ്ദേശിച്ച ആൾ അല്ല"?</b><br><br>
+                                Tell us all about it through a video that accurately depicts the contrast between expectations and reality. We'll be here, eagerly waiting for your entries!</p>
+                            <ul class="list-inline item-details">
+                                <li style="font-size:25px;">
+                                    <strong><a href="https://forms.gle/sY6CZQ2SEW2xjros8" style="text-decoration: none;">REGISTER HERE</a>
+                                    </strong>
+                                </li>
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="port-modal modal fade" id="portModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>വർക്കിച്ചാ..   പിള്ളേർ   പുലി   ആണ്   കേട്ടോ !</h2>
+                            <hr class="star-primary">
+                            <img src="img/varkichan.jpeg" class="img-responsive img-centered" alt="">
+                            <p>Have you ever tried putting youself in your teachers place? 
+                                If not, this is the  your opportunity  to be your own teacher.
+                                
+                                We give you an opportunity to imitate your teacher and show us your talent.
+                                
+                                One student  from each branch can participate  by sending  a video to us before 23<sup>rd</sup> of june while  imitating  a teacher  of their choice.Be cautious to respectful to the teacher  while imitating them.
+                                <br/>
+                                Are you ready !?</p>
+                            <ul class="list-inline item-details">
+                                <li style="font-size:25px;">
+                                    <strong><a style="text-decoration: none;">REGISTER HERE</a>
+                                    </strong>
+                                </li>
+                                
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="port-modal modal fade" id="portModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>മുടുക്കൻ &മുടുക്കത്തി</h2>
+                            <hr class="star-primary">
+                            <img src="img/mr&mrs.jpeg" class="img-responsive img-centered" alt="">
+                            <p>Are you amongst the lot who have a way with appareling that makes them glow? 
+
+                                Then this event has got your name written all over it. Hint us a bit about your personality and show off your talents with suave and elegance. Sweep us off our feet with your signature style and sense of fashion, for the stage is all yours to conquer. But remember, only two will be deemed worthy of the title <br/><br><b>"മുടുക്കൻ &മുടുക്കത്തി"</b></p>
+                                
+                                Break a leg, y'all!</p>
+                            <ul class="list-inline item-details">
+                                   <li style="font-size:25px;"> <strong><a href="https://forms.gle/MW9oVaR6aKUrG6st7" style="text-decoration: none;">REGISTER HERE</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                                
+                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- 
+    <div class=" story" id="slide-6" data-slide="6" style="text-align: center;">
+		<div class="container">
+			<div class="row title-row">
+				<div class="col-12 font-light">CONTACT US</div>
+            </div>
+			<div class="row line-row">
+				<div class="hr">&nbsp;</div>
+			</div>
+			<div id="contact-row-4" class="row">
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+				<div class="col-12 col-sm-2 with-hover-text">
+					<p><a target="_blank"><i class="icon icon-phone"></i></a></p>
+					<span class="hover-text font-light "></span></a>
+				</div>
+				<div class="col-12 col-sm-2 with-hover-text">
+					<p><a target="_blank" href=""><i class="icon icon-envelope"></i></a></p>
+					<span class="hover-text font-light "></span></a>
+				</div>
+				<div class="col-12 col-sm-2 with-hover-text">
+					<p><a target="_blank"><i class="icon icon-home"></i></a></p>
+					<span class="hover-text font-light "></span></a>
+				</div>
+				<div class="col-12 col-sm-2 with-hover-text">
+					<p><a target="_blank" href="https://www.facebook.com"><i class="icon icon-facebook"></i></a></p>
+					<span class="hover-text font-light ">facebook</span></a>
+				</div>
+				<div class="col-12 col-sm-2 with-hover-text">
+					<p><a target="_blank"><i class="icon icon-twitter"></i></a></p>
+					<span class="hover-text font-light ">twitter</span></a>
+				</div>
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+			</div>
+            
+		</div>
+       <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7005.376287416387!2d77.035069!3d28.609131!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7e540ab22a28446!2sNetaji+Subhas+Institute+Of+Technology!5e0!3m2!1sen!2sin!4v1451576564796" width="1000" height="600" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+
+	</div> 
+
+    
+</div>
+<div style="background-color: black;padding:10px;font-size:-10px ;">
+Built &nbsp; by &nbsp; <a href="https://cce.edu.in/code/index.html" target="_blank" class="footer__link">CODe &nbsp;</a> for the &nbsp; <a href="index.html" target="_self" class="footer__link">Freshers</a></div>
+</body>
+
+	
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/script.js"></script>
+	
+    
+    <script src="js/device.min.js"></script>
+	<script src="js/jquery.diamonds.js"></script>
+	<script>
+	 
+
+ $("#port-items").diamonds({
+     itemSelector: ".item"
+ });
+
+</script>
+</body>
+
+</html>
+
